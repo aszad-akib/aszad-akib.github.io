@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aszad Hossain Akib | Food & Materials Researcher</title>
+  <meta name="description" content="Aszad Hossain Akib, M.Sc. researcher at CVASU working on metal-doped TiO2 thin films for gas sensing, antibacterial surfaces and water purification.">
+  <meta name="author" content="Aszad Hossain Akib">
+  <meta property="og:title" content="Aszad Hossain Akib | Food & Materials Researcher">
+  <meta property="og:description" content="Sustainable nanomaterials, thin films, gas sensing and food science.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/profile.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Nunito+Sans:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+    // Apply saved theme before the page paints (avoids a flash)
+    try { if (localStorage.getItem("theme") === "dark") document.documentElement.dataset.theme = "dark"; } catch (e) {}
+  </script>
+</head>
+<body>
+
+  <!-- ================= SPLASH SCREEN =================
+       A drifting web of nodes gathers into the name. The cursor pushes the web aside
+       (gold glow), a click sends a ripple. Shown once per visit; built by splash.js. -->
+  <div class="splash" id="splash" role="dialog" aria-modal="true" aria-label="Welcome">
+    <canvas class="splash-canvas" aria-hidden="true"></canvas>
+    <p class="splash-eyebrow">Aszad Hossain Akib &middot; Food &amp; Materials Researcher</p>
+    <h1 class="splash-sr">Aszad Hossain Akib</h1>
+    <div class="splash-actions">
+      <button type="button" class="splash-btn primary" id="splashEnter">Enter the site</button>
+    </div>
+    <p class="splash-hint">Move your cursor through the web &middot; click to send a ripple</p>
+  </div>
+  <script src="splash.js"></script>
+
+  <!-- ================= NAVBAR ================= -->
+  <header class="navbar">
+    <div class="nav-inner">
+      <a class="logo" href="#/home">
+        <span class="logo-text">
+          <strong id="logoName">Aszad Hossain Akib</strong>
+          <small id="logoTag">Food & Materials Researcher</small>
+        </span>
+      </a>
+
+      <!-- The menu buttons are built by app.js (see NAV at the top of app.js) -->
+      <nav class="nav-links" id="navLinks" aria-label="Main"></nav>
+
+      <div class="nav-tools">
+        <span class="nav-divider"></span>
+        <button class="icon-btn" id="themeBtn" aria-label="Toggle dark mode"></button>
+        <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false"></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ================= PAGES =================
+       Each <section> below is filled in by app.js using the content in data.js -->
+  <main id="app">
+    <section class="page" id="page-home"></section>
+    <section class="page" id="page-publications"></section>
+    <section class="page" id="page-projects"></section>
+    <section class="page" id="page-honors"></section>
+    <section class="page" id="page-experience"></section>
+    <section class="page" id="page-internships"></section>
+    <section class="page" id="page-teaching"></section>
+    <section class="page" id="page-certifications"></section>
+    <section class="page" id="page-activities"></section>
+    <section class="page" id="page-leadership"></section>
+    <section class="page" id="page-contact"></section>
+  </main>
+
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Aszad Hossain Akib · Built with HTML, CSS &amp; JavaScript · Hosted on GitHub Pages</p>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
